@@ -16,4 +16,9 @@ terraform {
       source  = "hashicorp/aws"
     }
   }
+  backend "s3" {
+    bucket         = "****"
+    key            = "****/"
+    region         = "****"
+  }
 }
